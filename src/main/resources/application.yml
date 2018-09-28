@@ -1,0 +1,12 @@
+server:
+  port: 8012
+
+spring:
+  data:
+    mongodb:
+      authentication-database: test
+      username: test
+      password: test
+      port: 27017
+      host: 192.168.10.7
+      database: test
