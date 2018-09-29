@@ -44,6 +44,8 @@ import java.util.Optional;
 public class UserService {
 
     private MongoTemplate mongoTemplate;
+
+    /** GridFS 存储桶操作模板 */
     private GridFsTemplate gridFsTemplate;
     private MongoDbFactory dbFactory;
     private UserRepository userRepository;
