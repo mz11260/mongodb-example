@@ -63,6 +63,9 @@ public class UserController {
 
     @GetMapping("findByName")
     public User findByName(String name) {
+        log.info("findByName info");
+        log.error("findByName error");
+        log.debug("findByName debug");
         return userService.findByName(name);
     }
 

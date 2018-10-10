@@ -55,6 +55,22 @@
             <artifactId>commons-io</artifactId>
             <version>1.3.2</version>
         </dependency>
+
+        <!-- apollo Client-->
+        <!--<dependency>
+            <groupId>com.ctrip.framework.apollo</groupId>
+            <artifactId>apollo-client</artifactId>
+            <version>0.11.0-SNAPSHOT</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/apollo-client-0.11.0-SNAPSHOT.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>com.ctrip.framework.apollo</groupId>
+            <artifactId>apollo-core</artifactId>
+            <version>0.11.0-SNAPSHOT</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/apollo-core-0.11.0-SNAPSHOT.jar</systemPath>
+        </dependency>-->
     </dependencies>
 
     <build>

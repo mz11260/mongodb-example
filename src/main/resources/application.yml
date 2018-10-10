@@ -12,4 +12,6 @@ spring:
       database: test
 
 logging:
-  level.org.springframework.data: debug
+  level.org.springframework.data: info
+  file: mongodb-example.log
+  path: ${user.dir}/logs/
