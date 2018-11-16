@@ -1,5 +1,6 @@
 package com.zm.example.controller;
 
+import com.google.common.base.MoreObjects;
 import com.mongodb.client.result.UpdateResult;
 import com.zm.example.entity.User;
 import com.zm.example.service.UserService;
@@ -66,7 +67,9 @@ public class UserController {
         log.info("findByName info");
         log.error("findByName error");
         log.debug("findByName debug");
-        return userService.findByName(name);
+        User user = userService.findByName(name);
+        log.info(MoreObjects.toStringHelper(user).addValue(user).toString());
+        return user;
     }
 
     @GetMapping("getAvatarFile/{id}")
